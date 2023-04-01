@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  8f0949a5-5b5d-4b12-88c4-fe01f7b5cebf: # CraftVue
+    enabledByDefault: true
+    hasUrls: true
+    template: _page/entry
+    uriFormat: __home__
+type: single

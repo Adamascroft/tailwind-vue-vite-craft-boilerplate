@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: CraftVue
+primary: true
+siteGroup: 6dc1a327-0ec8-4985-9da0-e8ed5c571160 # CraftVue
+sortOrder: 1

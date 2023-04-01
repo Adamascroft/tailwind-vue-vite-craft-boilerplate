@@ -1,0 +1,24 @@
+   <!doctype html>
+   <html class="no-js" lang="{{ craft.app.language|slice(0,2) }}">
+      <head>
+
+         <meta charset="utf-8">
+         <meta http-equiv="x-ua-compatible" content="ie=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         
+         {% if craft.app.config.env != 'production' %}
+            <meta name="robots" content="noindex">
+         {% endif %}
+
+      </head>
+
+      <body>                 
+
+         {% block body %}{% endblock %}
+         
+         {# Javascript #}
+         {{ craft.vite.script('src/main.js', false) }}        
+
+      </body>
+
+   </html>

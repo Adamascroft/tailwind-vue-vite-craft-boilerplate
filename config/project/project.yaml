@@ -1,0 +1,22 @@
+dateModified: 1626219468
+email:
+  fromEmail: adamascroft@hotmail.co.uk
+  fromName: CraftVue
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: CraftVue
+  schemaVersion: 3.6.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
